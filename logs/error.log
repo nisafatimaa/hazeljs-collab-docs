@@ -1,0 +1,1 @@
+2026-03-27 20:33:23 [ERROR] Error in shutdown handler http-server: Handler http-server timeout | {"stack":"Error: Handler http-server timeout\n    at Timeout._onTimeout (/Users/test/hazeljs-collab-docs/node_modules/@hazeljs/core/dist/shutdown.js:80:80)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"}

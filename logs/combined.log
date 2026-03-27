@@ -1,0 +1,23 @@
+2026-03-27 20:32:23 [INFO] [36m[1mApplication started[22m[39m | {"service":"hazeljs","version":"0.1.0","environment":"development"}
+2026-03-27 20:32:23 [INFO] Configuring WebSocket module...
+2026-03-27 20:32:23 [INFO] [32m[1mServer listening on:[22m[39m
+2026-03-27 20:32:23 [INFO] 
+2026-03-27 20:32:23 [INFO] [32m  → Local:    [39m[36m[4mhttp://localhost:3000[24m[39m
+2026-03-27 20:32:23 [INFO] [32m  → Network:  [39m[36m[4mhttp://192.168.18.164:3000[24m[39m
+2026-03-27 20:32:23 [INFO] 
+2026-03-27 20:32:23 [INFO] [90mHealth endpoints:[39m
+2026-03-27 20:32:23 [INFO] [90m  → /health  - Liveness probe[39m
+2026-03-27 20:32:23 [INFO] [90m  → /ready   - Readiness probe[39m
+2026-03-27 20:32:23 [INFO] [90m  → /startup - Startup probe[39m
+2026-03-27 20:32:23 [INFO] 
+2026-03-27 20:32:23 [INFO] WebSocket server attached at path: /collab
+2026-03-27 20:32:43 [WARN] High memory usage during request req_1774625563341_f0wdvo1n2: 131MB
+2026-03-27 20:32:43 [INFO] [1mGET[22m / [33m404[39m [90m2ms[39m
+2026-03-27 20:32:43 [WARN] High memory usage during request req_1774625563373_93vqd9kfh: 131MB
+2026-03-27 20:32:43 [INFO] [1mGET[22m /favicon.ico [33m404[39m [90m0ms[39m
+2026-03-27 20:33:13 [INFO] Received SIGINT signal, starting graceful shutdown...
+2026-03-27 20:33:13 [INFO] Starting graceful shutdown...
+2026-03-27 20:33:13 [INFO] Executing shutdown handler: http-server
+2026-03-27 20:33:13 [INFO] Received SIGINT signal, starting graceful shutdown...
+2026-03-27 20:33:13 [WARN] Shutdown already in progress, ignoring signal
+2026-03-27 20:33:23 [ERROR] Error in shutdown handler http-server: Handler http-server timeout | {"stack":"Error: Handler http-server timeout\n    at Timeout._onTimeout (/Users/test/hazeljs-collab-docs/node_modules/@hazeljs/core/dist/shutdown.js:80:80)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"}

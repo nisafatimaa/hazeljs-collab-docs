@@ -1,0 +1,21 @@
+{
+  "name": "hazeljs-collab-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hazeljs/core": "^0.4.0",
+    "@hazeljs/prisma": "^0.4.0",
+    "@hazeljs/websocket": "^0.4.0",
+    "yjs": "^13.6.30"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
