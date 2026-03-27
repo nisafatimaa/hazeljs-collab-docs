@@ -1,3 +1,4 @@
+import { Service } from '@hazeljs/core';
 import * as Y from 'yjs';
 
 export interface DocumentSnapshot {
@@ -15,10 +16,7 @@ export interface CollaboratorInfo {
   color: string;
 }
 
-/**
- * Manages Yjs CRDT documents in memory.
- * In production: persist state to DB using encodeStateAsUpdate / applyUpdate.
- */
+@Service()
 export class CRDTDocumentManager {
   // Map of docId → Y.Doc
   private docs = new Map<string, Y.Doc>();
@@ -148,6 +146,3 @@ export class CRDTDocumentManager {
     this.collaborators.delete(docId);
   }
 }
-
-// Singleton — shared across gateway and controllers
-export const crdtManager = new CRDTDocumentManager();
